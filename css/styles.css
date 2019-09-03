@@ -56,6 +56,10 @@ h5 {
     font-weight: 500;
 }
 
+img {
+    width: 100%;
+}
+
 .btn {
     font-size: 13px;
     border: solid 2px;
@@ -172,7 +176,9 @@ ol {
 }
 
 ul li {
-    list-style: none;
+    list-style: circle;
+    line-height: 29px;
+    padding-bottom: 10px;
 }
 
 .section-padding {
