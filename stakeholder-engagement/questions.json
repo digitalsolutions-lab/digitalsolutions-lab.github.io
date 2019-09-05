@@ -1,0 +1,313 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(1)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(1)",
+                    "etag": "\"6\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Mandatory",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": false,
+                "Selected_x0020_Teams": "11111000000000000000000",
+                "Artefacts": null
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(2)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(2)",
+                    "etag": "\"4\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Is this feature part of a project with over $250K in end-to-end spend (including contingency)?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000110000000000010000",
+                "Artefacts": {
+                    "results": [
+                        "High Level Risk Assessment (HLRA) to be completed in Clarity and updated as project progressess (2nd line ops)",
+                        "IM Certification Request (EIM) [https://intranet.westpacgroup.com.au/wbg/about-us/business-units/strategy-transformation-business-services/BPA/enterprise-information-management/eim-project-support]"
+                    ]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(3)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(3)",
+                    "etag": "\"4\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature have a potential regulatory compliance impact?",
+                "Question_x0020_Information": "<div class=\"ExternalClass0ACC68105918404DAC8AC50D28237A6C\"><p>\u200b</p><div>Compliance scope includes but is not limited to:<br>- Privacy & GDPR<br>- Financial services advice obligations<br>- Marketing material, warnings & disclosures<br>- Management of regulatory change<br>- Introduction of new products or limits<br>- The use or analysis of customer data</div><p><br></p></div>",
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000100000000000000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(4)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(4)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does the feature involve the collection, use or storage of personal information?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000100000000000000000",
+                "Artefacts": {
+                    "results": ["DPIA (2nd Line Compliance)"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(5)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(5)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does the feature have a Medium or High risk rating as per the Product and Project Assessment (PPA) tool [https://ppa.westpac.com.au/app/home]?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000001000000000000000",
+                "Artefacts": {
+                    "results": ["PPA (AML)"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(6)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(6)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature impact Business Bank Products (not services)?",
+                "Question_x0020_Information": "<div class=\"ExternalClass6F382ADEB6494DFD91245C0C0DFAC035\">Refer to the Business Bank Approved Product List (APL) [https://intranet.westpacgroup.com.au/wbg/business-areas/group-functions/compliance/policies/psl]</div>",
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000100000000000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(7)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(7)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature impact the customer communications? E.g. T&Cs, customer emails, online applications etc.",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000100000000",
+                "Artefacts": {
+                    "results": [
+                        "Colleral Hub change request [https://intranet.westpacgroup.com.au/wbg/about-us/business-units/strategy-transformation-business-services/group-operations/group-operations/business-transformation/collateral-management-team]"
+                    ]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(8)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(8)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature impact the distribution network/operations/customer communications?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000010000000000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature require the engagement of a third party vendor?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000010000000000000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature require any changes to the Consumer Bank Terms & Conditions?",
+                "Question_x0020_Information": "Refer to the T&Cs change process [https://intranet.westpacgroup.com.au/wbg/business-areas/group-functions/product/consumer/policies/create-change-tcs]",
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000100000000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature impact Consumer Bank Products (not services)?",
+                "Question_x0020_Information": "Refer to the Consumer Bank Approved Product List (APL) [https://intranet.westpacgroup.com.au/wbg/business-areas/group-functions/compliance/policies/psl]",
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000100000000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature relate to secured or unsecured lending? (including home loans, credit cards, personal loans, and business lending)",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000010000000000",
+                "Artefacts": {
+                    "results": ["PiP (Credit Risk)"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature impact Customer Care?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000010001000000000",
+                "Artefacts": {
+                    "results": [
+                        "Customer Care change request (Customer Care Ops Risk)"
+                    ]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature require changes to the Product Catalogue System?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000010000000",
+                "Artefacts": {
+                    "results": ["PPA (Digital Business Services)"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature require data analytics?",
+                "Question_x0020_Information": "The data will either be provided by the Digital Customer Intelligence team or triaged out to Adobe Analytics or other reporting functions",
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000001000000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature require significant changes and/or the creation of Digital and Web Domain Data in applications or data warehouses or involve new/changes to data from other Domains?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000000010000",
+                "Artefacts": {
+                    "results": [
+                        "IM Certification Request (EIM) [https://intranet.westpacgroup.com.au/wbg/about-us/business-units/strategy-transformation-business-services/BPA/enterprise-information-management/eim-project-support]"
+                    ]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does your feature involve deeplinking from a public site to our secure sites/native apps, or experience management/content mangement for our secure sites/native apps/tools/calculators/forms",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000000100000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature impact the customer experience and/or design?",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000000001000",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Is this feature part of a project with a Medium or High risk rating as per the Fraud Impact Assessment (FIA)? [https://sites.thewestpacgroup.com.au/sites/TS3195/SitePages/Home.aspx]",
+                "Question_x0020_Information": null,
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000000000100",
+                "Artefacts": {
+                    "results": ["FIA (Fraud)"]
+                }
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "uri": "https://sites.thewestpacgroup.com.au/sites/TS1748/_api/Web/Lists(guid'70b42ea1-9b8d-48ce-9235-e5ffd690b118')/Items(9)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.QuestionairesListItem"
+                },
+                "Question": "Does this feature have potential tax implications for the Westpac Group?",
+                "Question_x0020_Information": "Tax implications may arise in the following situations, but are not limited to:<br>- The collection, use, retention, display or sharing of customer data or attributes, including changes to or introduction of customer onboarding processes<br>- New financial products or changes to existing products<br>- Making general commentary on the operation of Tax Law<br>- Providing customers' tax information to non-Westpac Group entities or persons, including customers, their advisors and government organisations<br>- The engagement of external service providers",
+                "Is_x0020_it_x0020_Question": true,
+                "Selected_x0020_Teams": "00000000000000000000100",
+                "Artefacts": {
+                    "results": ["Standard"]
+                }
+            }
+        ]
+    }
+}
