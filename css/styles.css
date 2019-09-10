@@ -1615,30 +1615,3 @@ you can use the generic selector below, but it's slower:
 .icon-dribbble:before {
     content: '\e063';
 }
-
-/*********************
-**********************
-**********************
-
-My styles
-
-**********************
-**********************
-*********************/
-
-.col-bitmoji {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .col-bitmoji {
-        display: block;
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-bottom: 30px;
-        float: left;
-        width: 11.11%;
-    }
-}

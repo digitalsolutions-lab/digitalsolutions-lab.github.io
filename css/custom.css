@@ -1,0 +1,49 @@
+/*********************
+**********************
+**********************
+
+My styles
+
+**********************
+**********************
+*********************/
+
+.col-bitmoji {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .col-bitmoji {
+        display: block;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+        float: left;
+        width: 11.11%;
+    }
+}
+
+.fixed-nav .navigation {
+    background-color: #232731;
+}
+
+.blog {
+    position: relative;
+    z-index: 3;
+}
+
+.features-extra {
+    padding-top: 300px;
+    height: 850px;
+}
+
+.features-extra .macbook-wrap {
+    bottom: 60px;
+    top: auto;
+}
+
+.hero-strip {
+    z-index: 4;
+}
