@@ -76,6 +76,12 @@ My styles
     border: none;
 }
 
+.slick-prev:focus,
+.slick-next:focus,
+.slick-slide a {
+    outline: 0;
+}
+
 .slick-prev {
     left: -14px;
 }
