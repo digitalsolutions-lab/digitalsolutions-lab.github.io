@@ -70,6 +70,8 @@ My styles
     height: 100%;
     top: 0;
     z-index: 1;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .slick-prev {
