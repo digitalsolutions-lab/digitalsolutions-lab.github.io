@@ -73,6 +73,7 @@ My styles
     -webkit-appearance: none;
     border-radius: 0;
     background: none;
+    border: none;
 }
 
 .slick-prev {
