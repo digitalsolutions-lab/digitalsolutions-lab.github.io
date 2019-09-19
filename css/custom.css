@@ -47,3 +47,8 @@ My styles
 .hero-strip {
     z-index: 4;
 }
+
+.game-slider {
+    max-height: 560px;
+    overflow: hidden;
+}
