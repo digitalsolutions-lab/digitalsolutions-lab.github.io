@@ -41,6 +41,7 @@
             href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
         />
         <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body id="body-games" class="fixed-nav">
@@ -80,17 +81,30 @@
         <section class="features-extra section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="game-slider">
-                            <div>
-                                <img src="img/games/lost-card-intro.png" />
+                    <div class="mobile-only">
+                        <div class="col-md-12">
+                            <div class="game-slider">
+                                <div>
+                                    <img src="img/games/lost-card-intro.png" />
+                                </div>
+                                <div>
+                                    <img src="img/games/wack-intro.png" />
+                                </div>
+                                <div>
+                                    <img src="img/games/paper-toss-intro.png" />
+                                </div>
                             </div>
-                            <div>
-                                <img src="img/games/wack-intro.png" />
-                            </div>
-                            <div>
-                                <img src="img/games/paper-toss-intro.png" />
-                            </div>
+                        </div>
+                    </div>
+                    <div class="desktop-only">
+                        <div class="col-md-4">
+                            <img src="img/games/lost-card-intro.png" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/games/wack-intro.png" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/games/paper-toss-intro.png" />
                         </div>
                     </div>
                 </div>
@@ -108,16 +122,14 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
-        <script src="js/slick.min.js"></script>
         <script src="bower_components/classie/classie.js"></script>
         <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
-
+        <script type="text/javascript" src="slick/slick.min.js"></script>
         <script>
             $(document).on('ready', function() {
                 $('.game-slider').slick({
                     centerMode: true,
-                    centerPadding: '60px',
-                    slidesToShow: 3
+                    slidesToShow: 1
                 });
             });
         </script>
