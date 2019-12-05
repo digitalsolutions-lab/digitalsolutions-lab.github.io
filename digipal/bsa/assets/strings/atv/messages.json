@@ -1,0 +1,17 @@
+{
+    "coin-cardlesscash": {
+        "message": "Cash is king. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ultrices quam. Integer facilisis ipsum neque, et blandit nulla aliquet a."
+    }, 
+    "coin-cardlock": {
+        "message": "Card locks are important. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ultrices quam. Integer facilisis ipsum neque, et blandit nulla aliquet a."
+    },
+    "coin-estatement": {
+        "message": "You can get an eStatement instead of a physical copy. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ultrices quam. Integer facilisis ipsum neque, et blandit nulla aliquet a."
+    },
+    "coin-spendtracker": {
+        "message": "Use the spend tracker to know how much you are spending. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ultrices quam. Integer facilisis ipsum neque, et blandit nulla aliquet a."
+    },
+    "coin-updatedetails": {
+        "message": "Make sure that your account details are updated. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ultrices quam. Integer facilisis ipsum neque, et blandit nulla aliquet a."
+    }
+}
