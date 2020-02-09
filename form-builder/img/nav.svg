@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="954px" viewBox="0 0 236 954" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>nav</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="forms" transform="translate(0.000000, -70.000000)">
+            <g id="nav" transform="translate(-1.000000, 70.000000)">
+                <rect id="Rectangle" fill="#263238" fill-rule="nonzero" x="1" y="0" width="236" height="954"></rect>
+                <g id="nav_item" transform="translate(1.000000, 50.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="My-products" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">My products</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-2" transform="translate(1.000000, 148.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Pending-requests" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Pending requests</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-3" transform="translate(1.000000, 197.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Portfolio-members" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Portfolio members</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-4" transform="translate(1.000000, 295.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Direct-upload" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Direct upload</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-5" transform="translate(1.000000, 344.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Bulk-upload" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Bulk upload</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-7" transform="translate(1.000000, 442.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Open-Banking" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Open Banking</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-12" transform="translate(2.000000, 540.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Form-builder" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Form builder</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_hover" transform="translate(1.000000, 540.000000)" fill="#00ADEF" fill-rule="nonzero">
+                    <rect id="Rectangle" x="0" y="0" width="6" height="52"></rect>
+                </g>
+                <g id="nav_item-copy-9" transform="translate(1.000000, 641.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Website-traceability" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Website traceability</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-10" transform="translate(1.000000, 690.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="External-traceabilit" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">External traceability</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy-11" transform="translate(1.000000, 739.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Audit-logs" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">Audit logs</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="nav_item-copy" transform="translate(1.000000, 99.000000)">
+                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="My-pending-approvals" font-family="HelveticaNeue-Light, Helvetica Neue" font-size="16" font-weight="300" fill="#FFFFFF">
+                        <tspan x="45" y="31">My pending approvals</tspan>
+                    </text>
+                    <polygon id="Triangle" fill="#FFFFFF" fill-rule="nonzero" points="31 25 25 29 25 21"></polygon>
+                </g>
+                <g id="name">
+                    <rect id="Rectangle" fill-rule="nonzero" x="1" y="0" width="236" height="49"></rect>
+                    <text id="John-Smith" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="25" y="32">John Smith</tspan>
+                    </text>
+                    <path d="M118,-68 L118,166.5" id="Line" stroke="#979797" stroke-linecap="square" stroke-linejoin="round" stroke-dasharray="0,4" transform="translate(118.000000, 49.000000) rotate(-90.000000) translate(-118.000000, -49.000000) "></path>
+                </g>
+                <g id="nav_item" transform="translate(1.000000, 246.000000)">
+                    <rect id="Rectangle" fill="#495761" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Rates,-fees-&amp;-dates" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="25" y="32">Rates, fees &amp; dates</tspan>
+                    </text>
+                </g>
+                <g id="nav_item-copy-6" transform="translate(0.000000, 393.000000)">
+                    <rect id="Rectangle" fill="#495761" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Product-structure" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="25" y="32">Product structure</tspan>
+                    </text>
+                </g>
+                <g id="nav_item-copy-13" transform="translate(1.000000, 491.000000)">
+                    <rect id="Rectangle" fill="#495761" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Forms" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="25" y="32">Forms</tspan>
+                    </text>
+                </g>
+                <g id="nav_item-copy-8" transform="translate(1.000000, 592.000000)">
+                    <rect id="Rectangle" fill="#495761" fill-rule="nonzero" x="0" y="0" width="236" height="49"></rect>
+                    <text id="Reports" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="25" y="32">Reports</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

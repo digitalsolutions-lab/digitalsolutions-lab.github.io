@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#" />
+
+        <title></title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="css/site.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <div class="site-wrap container">
+            <div class="sidebar">
+                <img src="img/logo.svg" alt="" class="logo" />
+                <img src="img/nav.svg" alt="" class="nav" />
+            </div>
+            <div class="inner">
+                <h1>Form builder</h1>
+                <div id="fb-editor"></div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="https://formbuilder.online/assets/js/form-builder.min.js"></script>
+        <script>
+            const typeUserAttrs = {
+                text: {
+                    errorMsg: {
+                        label: 'Error message',
+                        value: ''
+                    }
+                }
+            };
+            var options = {
+                actionButtons: [
+                    {
+                        id: 'submit',
+                        className: 'btn btn-success',
+                        label: 'Submit',
+                        type: 'button',
+                        events: {
+                            click: function() {
+                                alert('Your form was submitted for approval');
+                            }
+                        }
+                    }
+                ],
+                disableFields: ['autocomplete'],
+                disabledAttrs: ['access', 'placeholder'],
+                layoutTemplates: {
+                    help: function(helpText) {
+                        return $('<div/>')
+                            .addClass('help')
+                            .append(helpText);
+                    }
+                },
+                typeUserAttrs
+            };
+            jQuery(function($) {
+                $(document.getElementById('fb-editor')).formBuilder(options);
+            });
+        </script>
+    </body>
+</html>

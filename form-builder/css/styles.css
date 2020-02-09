@@ -1,0 +1,226 @@
+/* My styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background: #f3f5f6;
+}
+
+body > .site-wrap {
+    background: #f3f5f6;
+    height: 100vh;
+    display: flex;
+}
+
+button {
+    font-size: 16px !important;
+}
+
+.sidebar {
+    background: #263238;
+}
+
+.logo {
+    display: block;
+}
+
+.nav {
+    display: block;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1280px;
+    padding: 20px;
+}
+
+.btn-default.get-data {
+    background-color: #3e3f3a;
+}
+
+.btn-default.get-data:hover {
+    background-color: #2d2e2a;
+}
+
+.stage-wrap.empty::after,
+.toast {
+    color: #9c9c9c;
+}
+
+#fb-editor h1,
+#fb-editor h2,
+#fb-editor h3,
+#fb-editor h4,
+#fb-editor h5,
+#fb-editor h6 {
+    font-family: 'chronicle-disp-semibold', 'Times New Roman', 'Times', serif,
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    color: #621a4b;
+    text-align: left !important;
+    font-weight: bold !important;
+}
+
+#fb-editor h1 {
+    font-size: 42px;
+}
+
+#fb-editor h2 {
+    font-size: 36px !important;
+}
+
+#fb-editor h3 {
+    font-size: 24px;
+}
+
+#fb-editor h4 {
+    font-size: 20px;
+}
+
+#fb-editor h5 {
+    font-size: 18px;
+}
+
+#fb-editor h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #2d373e;
+}
+
+p.lead {
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.tooltip-element,
+.required-asterisk {
+    display: none !important;
+}
+
+.form-wrap.form-builder .frmb .field-label {
+    display: none;
+}
+
+.form-wrap.form-builder
+    .frmb
+    .prev-holder
+    .form-group
+    > label:not([class='formbuilder-checkbox-label']) {
+    display: block !important;
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+
+.help {
+    color: #575f65;
+    font-size: 0.875rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.form-wrap.form-builder .frmb .prev-holder select,
+.form-wrap.form-builder .frmb .prev-holder input[type='text'],
+.form-wrap.form-builder .frmb .prev-holder textarea,
+.form-wrap.form-builder .frmb .prev-holder input[type='number'] {
+    padding: 0.5rem 0.9375rem;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #2d373e;
+    background-color: #fff;
+    border: 1px solid #8c9296 !important;
+    border-radius: 0.1875rem;
+    box-shadow: none !important;
+}
+
+.form-wrap.form-builder .frmb .prev-holder input[type='text'],
+.form-wrap.form-builder .frmb .prev-holder input[type='number'] {
+    height: 2.625rem;
+}
+
+.form-wrap.form-builder .formbuilder-checkbox-group input[type='radio'],
+.form-wrap.form-builder .formbuilder-radio-group input[type='radio'] {
+    width: 1.875rem;
+    height: 1.875rem;
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+}
+
+.form-wrap.form-builder .frmb .prev-holder .formbuilder-radio label {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 0.625rem;
+    position: relative;
+}
+
+.form-wrap.form-builder .frmb .prev-holder .formbuilder-radio label::before {
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: -1.875rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 1px solid #621a4b;
+    background: transparent;
+}
+
+.form-wrap.form-builder .frmb .prev-holder .formbuilder-radio label::after {
+    top: 0.4375rem;
+    left: -1.4375rem;
+    border-width: 0.5rem !important;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    border: solid #621a4b;
+    border-radius: 50%;
+    background: #621a4b;
+    width: 0;
+    height: 0;
+}
+
+.form-wrap.form-builder
+    .frmb
+    .prev-holder
+    .formbuilder-radio
+    input:checked
+    + label::after {
+    opacity: 1;
+}
+
+.form-wrap.form-builder .formbuilder-button .btn {
+    color: #fff;
+    border-color: #d5002b !important;
+    background-color: #d5002b;
+    -webkit-transition: background 0.2s ease, color 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease;
+    padding: 0.3125rem 0.75rem;
+    font-size: 1rem;
+    height: 2.25rem;
+    border-radius: 0.1875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid #d7d2cb;
+}

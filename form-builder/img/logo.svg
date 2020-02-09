@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="70px" viewBox="0 0 236 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.6282211%" y1="110.378478%" x2="71.8795701%" y2="10.45348%" id="linearGradient-1">
+            <stop stop-color="#00ADEF" offset="0%"></stop>
+            <stop stop-color="#00ADEF" offset="24.1374639%"></stop>
+            <stop stop-color="#1634B8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="forms">
+            <g id="logo">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="236" height="70"></rect>
+                <g id="Group-2" transform="translate(27.000000, 11.000000)" fill="#FFFFFF">
+                    <text id="Babylon" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="28" font-weight="bold">
+                        <tspan x="41.82" y="36">Babylon</tspan>
+                    </text>
+                    <g id="Group-5" transform="translate(20.000000, 2.000000)" fill-rule="nonzero">
+                        <rect id="Rectangle" x="8.25" y="10" width="3.5" height="24"></rect>
+                        <rect id="Rectangle-Copy-8" x="14.25" y="10" width="3.5" height="24"></rect>
+                        <rect id="Rectangle" x="2.68686035" y="5.03307386" width="20.75" height="3"></rect>
+                        <rect id="Rectangle-Copy-9" x="0" y="0.0661477159" width="26" height="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
