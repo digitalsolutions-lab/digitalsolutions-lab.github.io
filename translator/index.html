@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script></head>
+<body>
+
+<h1>The XMLHttpRequest Object</h1>
+
+<button type="button" onclick="sendAjax()">Request data</button>
+
+<p id="demo"></p>
+ 
+<script>
+
+function sendAjax() {
+	alert("Hello Ankit"); 
+	// get inputs
+	var ankit="ankit";
+	
+	$.ajax({
+		url: "jsonservlet",
+		type: 'POST',
+		dataType: 'json',
+		data: JSON.stringify(ankit),
+		contentType: 'application/json',
+		mimeType: 'application/json',
+		
+		success: function (data) {
+        	 
+        },
+		error:function(data,status,er) {
+			alert("error: "+data+" status: "+status+" er:"+er);
+		}
+	});
+}
+</script>
+
+</body>
+</html>
