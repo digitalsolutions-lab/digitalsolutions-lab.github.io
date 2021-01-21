@@ -318,13 +318,14 @@
             #itm-feature {
                 margin-bottom: 100px;
             }
-            #itm-feature h2 {
-                font-size: 34px;
+            #itm-feature h1 {
+                font-size: 40px;
                 font-weight: 700;
                 text-align: center;
                 margin-bottom: 76px;
             }
-            .itm-feature-wrap {
+            .itm-feature-flex,
+            .itm-search-flex {
                 display: -ms-flexbox;
                 display: -webkit-flex;
                 display: flex;
@@ -378,6 +379,20 @@
                 line-height: 18px;
                 color: #474747;
             }
+            #itm-search {
+                background: #fafafa;
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .itm-search-box h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                max-width: 450px;
+            }
+            .itm-search-box-img img {
+                width: 100%;
+            }
             #itm-extra {
                 background: url(https://digitalsolutions-lab.github.io/itm/img/extra-img.jpg)
                     no-repeat top right;
@@ -415,8 +430,8 @@
             </div>
         </div>
         <div id="itm-feature" class="itm-styles itm-box">
-            <h2>In the Moment Playbook</h2>
-            <div class="itm-feature-wrap">
+            <h1>In the Moment Playbook</h1>
+            <div class="itm-feature-flex">
                 <div class="itm-feature-el">
                     <a href="">
                         <img
@@ -487,7 +502,20 @@
                 </div>
             </div>
         </div>
-        <div id="itm-search" class="itm-styles itm-box"></div>
+        <div id="itm-search" class="itm-styles itm-box">
+            <div class="itm-search-flex">
+                <div class="itm-search-box">
+                    <h2>Search within the ITM Playbook</h2>
+                    Search box here
+                </div>
+                <div class="itm-search-box-img">
+                    <img
+                        src="https://digitalsolutions-lab.github.io/itm/img/urban-line1.png"
+                        alt="ITM search image"
+                    />
+                </div>
+            </div>
+        </div>
         <div id="itm-extra" class="itm-styles itm-box">
             <h2>Connect with us</h2>
             <p>
