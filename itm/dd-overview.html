@@ -231,7 +231,7 @@
             }
             .itm-box {
                 padding: 0 100px;
-                margin: 0 auto;
+                margin: 0 auto 100px;
                 max-width: 1366px;
             }
             .itm-btn {
@@ -305,7 +305,8 @@
                 background: #f3f5f6;
             }
             #itm-dd-focus-h1 h1,
-            #itm-schema h1 {
+            #itm-schema h2,
+            #itm-info h2 {
                 font-size: 40px;
                 font-weight: 700;
                 margin-bottom: 24px;
@@ -320,12 +321,16 @@
                 padding-bottom: 32px;
                 margin-bottom: 120px;
             }
-            #itm-schema p {
+            #itm-schema p,
+            #itm-info p {
                 font-size: 20px;
                 line-height: 35px;
             }
             .itm-schema-diagram {
                 padding: 100px 0;
+                background: url(https://digitalsolutions-lab.github.io/itm/img/checker.png)
+                    no-repeat center;
+                background-size: cover;
             }
             #itm-tabs {
             }
@@ -340,6 +345,13 @@
                 line-height: 16px;
                 color: #909090;
             }
+            #itm-tabs p.lead {
+                font-size: 20px;
+                line-height: 30px;
+                color: #171717;
+                padding: 0 30px;
+                margin-bottom: 40px;
+            }
             .itm-tab-nav {
                 font-size: 24px;
                 font-weight: 700;
@@ -349,19 +361,39 @@
                 margin-bottom: 40px;
             }
             .itm-tab-content {
-                display: -ms-flexbox;
-                display: -webkit-flex;
-                display: flex;
-                -webkit-flex-wrap: wrap;
-                -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-                -webkit-justify-content: space-between;
-                -ms-flex-pack: justify;
-                justify-content: space-between;
+                margin: 0 -30px;
             }
             .itm-tab-el {
-                width: 200px;
+                float: left;
                 margin-bottom: 50px;
+                padding: 0 30px;
+            }
+            #itm-tab-1 .itm-tab-el {
+                width: 20%;
+            }
+            #itm-tab-2 .itm-tab-el,
+            #itm-tab-3 .itm-tab-el {
+                width: 33.3333333%;
+            }
+            .itm-tab-nav {
+            }
+            .itm-tab-nav.active {
+            }
+            .itm-tab-content {
+                display: none;
+            }
+            .itm-tab-content.active {
+                display: block;
+            }
+            #itm-info {
+                margin-bottom: 140px;
+            }
+            #itm-info p {
+                float: left;
+                width: 80%;
+            }
+            #itm-info a {
+                float: right;
             }
         </style>
         <div id="itm-header" class="itm-styles itm-box clearfix">
@@ -404,10 +436,10 @@
                     processes
                 </li>
             </ol>
-            <a href="" class="itm-btn itm-btn-center">Learn More</a>
+            <a href="#" class="itm-btn itm-btn-center">Learn More</a>
         </div>
         <div id="itm-schema" class="itm-styles itm-box">
-            <h1>Double Diamond Framework</h1>
+            <h2>Double Diamond Framework</h2>
             <p>
                 DD diamond framework is a comprehensive framework for planning,
                 researching, designing and executing customer journeys and
@@ -423,11 +455,17 @@
         </div>
         <div id="itm-tabs" class="itm-styles itm-box">
             <ul>
-                <li id="itm-tab-1" class="itm-tab-nav">All phases</li>
-                <li id="itm-tab-2" class="itm-tab-nav">Macro Pathway</li>
-                <li id="itm-tab-3" class="itm-tab-nav">Micro Pathway</li>
+                <li class="itm-tab-nav active">
+                    <a href="#itm-tab-1">All phases</a>
+                </li>
+                <li class="itm-tab-nav">
+                    <a href="#itm-tab-2">Macro Pathway</a>
+                </li>
+                <li class="itm-tab-nav">
+                    <a href="#itm-tab-3">Micro Pathway</a>
+                </li>
             </ul>
-            <div id="itm-tab-1-content" class="itm-tab-content">
+            <div id="itm-tab-1" class="itm-tab-content clearfix active">
                 <div class="itm-tab-el">
                     <h3>1. Strategy</h3>
                     <p>
@@ -521,12 +559,135 @@
                     </p>
                 </div>
             </div>
-            <div id="itm-tab-2-content"></div>
-            <div id="itm-tab-3-content"></div>
+            <div id="itm-tab-2" class="itm-tab-content clearfix">
+                <p class="lead">
+                    The <strong>Macro-pathway</strong> will drive new customer
+                    journeys and experiences, aligned to NPS, MFI and LOB
+                    strategic objectives.
+                </p>
+                <div class="itm-tab-el">
+                    <h3>Define</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Ideate</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Create</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Learn</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Activate</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+            </div>
+            <div id="itm-tab-3" class="itm-tab-content clearfix">
+                <p class="lead">
+                    The <strong>Micro-pathway</strong> recognises that, for the
+                    optimisation of existing customer journeys and experiences,
+                    the ITM function needs to react with speed to get customer
+                    progression through journeys back on track. However,
+                    front-ending ITM execution with light Define and Ideation
+                    phases ensures the customer is in the frame and that teams
+                    aren’t operating in a closed ecosystem. The following phases
+                    have a micro-pathway in the DD process
+                </p>
+                <div class="itm-tab-el">
+                    <h3>Define</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Ideate</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Create</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Learn</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+                <div class="itm-tab-el">
+                    <h3>Activate</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis, lectus
+                        magna fringilla urna, porttitor rhoncus dolor purus non
+                        enim praesent elementum facilisis leo, vel fringilla.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div id="itm-info" class="itm-styles itm-box">
-            <h1>ITM Mindset Shift</h1>
-
+        <div id="itm-info" class="itm-styles itm-box clearfix">
             <h2>Principles of Omni-Channel Experience Design</h2>
             <p>
                 ITM will facilitate the move from single-objective, one shot
@@ -534,7 +695,31 @@
                 the need to think more broadly around how we build relationships
                 with our customers.
             </p>
-            <a href="">Learn More</a>
+            <a href="#" class="itm-btn">Learn More</a>
         </div>
+        <script>
+            var myTabs = document.querySelectorAll('.itm-tab-nav');
+            function myTabClicks(tabClickEvent) {
+                for (var i = 0; i < myTabs.length; i++) {
+                    myTabs[i].classList.remove('active');
+                }
+                var clickedTab = tabClickEvent.currentTarget;
+                clickedTab.classList.add('active');
+                tabClickEvent.preventDefault();
+                var myContentPanes = document.querySelectorAll(
+                    '.itm-tab-content'
+                );
+                for (i = 0; i < myContentPanes.length; i++) {
+                    myContentPanes[i].classList.remove('active');
+                }
+                var anchorReference = tabClickEvent.target;
+                var activePaneId = anchorReference.getAttribute('href');
+                var activePane = document.querySelector(activePaneId);
+                activePane.classList.add('active');
+            }
+            for (i = 0; i < myTabs.length; i++) {
+                myTabs[i].addEventListener('click', myTabClicks);
+            }
+        </script>
     </body>
 </html>
