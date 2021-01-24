@@ -385,10 +385,13 @@
             .itm-tab-nav.active {
             }
             .itm-tab-content {
-                display: none;
+                position: absolute;
+                opacity: 0;
             }
             .itm-tab-content.active {
-                display: block;
+                position: static;
+                opacity: 1;
+                transition: opacity 0.3s ease-in-out;
             }
             #itm-info {
                 margin-bottom: 140px;
