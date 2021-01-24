@@ -216,15 +216,16 @@
             .clearfix {
                 display: inline-block;
             }
-            /* start commented backslash hack \*/
             * html .clearfix {
                 height: 1%;
             }
             .clearfix {
                 display: block;
             }
-            /* close commented backslash hack */
 
+            img {
+                width: 100%;
+            }
             .itm-styles {
                 font-family: arial;
                 color: #171717;
@@ -321,16 +322,20 @@
                 padding-bottom: 32px;
                 margin-bottom: 120px;
             }
+            #itm-schema p {
+                margin-bottom: 50px;
+            }
             #itm-schema p,
             #itm-info p {
                 font-size: 20px;
                 line-height: 35px;
             }
             .itm-schema-diagram {
-                padding: 100px 0;
+                padding: 100px;
                 background: url(https://digitalsolutions-lab.github.io/itm/img/checker.png)
                     no-repeat center;
                 background-size: cover;
+                margin: 0 -100px;
             }
             #itm-tabs {
             }
