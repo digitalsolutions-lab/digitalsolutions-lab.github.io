@@ -119,7 +119,6 @@
             body {
                 line-height: 1;
             }
-            ol,
             ul {
                 list-style: none;
             }
@@ -250,8 +249,18 @@
                 -o-transition: all 0.3s ease-in-out;
                 transition: all 0.3s ease-in-out;
             }
+            .itm-btn-center {
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                display: inline-block;
+            }
             .itm-btn:hover {
                 opacity: 0.8;
+            }
+            ol {
+                margin-left: 22px;
+                margin-bottom: 22px;
             }
         </style>
         <style>
@@ -295,14 +304,25 @@
             #itm-menu li a:hover {
                 background: #f3f5f6;
             }
-            #itm-dd-focus {
-                background: url(https://digitalsolutions-lab.github.io/itm/img/line-wave.png)
-                    no-repeat center;
-            }
-            #itm-dd-focus h1 {
+            #itm-dd-focus-h1 h1,
+            #itm-schema h1 {
                 font-size: 40px;
                 font-weight: 700;
-                margin-bottom: 76px;
+                margin-bottom: 24px;
+            }
+            #itm-dd-focus-content {
+                background: url(https://digitalsolutions-lab.github.io/itm/img/line-wave.png)
+                    no-repeat center;
+                background-size: cover;
+                font-size: 20px;
+                line-height: 35px;
+                padding-top: 32px;
+                padding-bottom: 32px;
+                margin-bottom: 120px;
+            }
+            #itm-schema p {
+                font-size: 20px;
+                line-height: 35px;
             }
         </style>
         <div id="itm-header" class="itm-styles itm-box clearfix">
@@ -320,8 +340,10 @@
                 </ul>
             </div>
         </div>
-        <div id="itm-dd-focus" class="itm-styles itm-box">
+        <div id="itm-dd-focus-h1" class="itm-styles itm-box">
             <h1>ITM Mindset Shift</h1>
+        </div>
+        <div id="itm-dd-focus-content" class="itm-styles itm-box">
             <p>
                 The ITM Program will not only unlock new technologies
                 capabilities, but will also transform the ways in which we plan,
@@ -343,16 +365,22 @@
                     processes
                 </li>
             </ol>
-            <a href="">Learn More</a>
+            <a href="" class="itm-btn itm-btn-center">Learn More</a>
         </div>
         <div id="itm-schema" class="itm-styles itm-box">
             <h1>ITM Mindset Shift</h1>
-            <h2>Double Diamond Framework</h2>
             <p>
                 DD diamond framework is a comprehensive framework for planning,
-                researching, designing and executing customer journyes and
-                experiences.
+                researching, designing and executing customer journeys and
+                experiences. It is a <strong>non-linear</strong> and iterative
+                process.
             </p>
+            <div class="itm-schema-diagram">
+                <img
+                    src="https://digitalsolutions-lab.github.io/itm/img/DD.png"
+                    alt="Double Diamond diagram"
+                />
+            </div>
         </div>
         <div id="itm-tabs" class="itm-styles itm-box">
             <h1>ITM Mindset Shift</h1>
