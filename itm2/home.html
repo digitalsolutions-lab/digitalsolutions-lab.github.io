@@ -396,6 +396,45 @@
             .itm-feature-inner p {
                 text-align: left;
             }
+            .itm-search {
+                position: relative;
+                padding: 50px 0;
+            }
+            .itm-search::before {
+                content: '';
+                display: block;
+                position: absolute;
+                left: -50%;
+                right: -50%;
+                top: 0;
+                overflow: hidden;
+                background: #2a2e42;
+                height: 100%;
+                z-index: -1;
+            }
+            .itm-search h2 {
+                color: #ffffff;
+                padding: 0 0 50px;
+                font-size: 36px;
+                font-weight: 500;
+                text-align: center;
+            }
+            .itm-search-flex {
+                display: flex;
+                justify-content: center;
+            }
+            .itm-search-field {
+                width: 300px;
+                height: 50px;
+                background: #ffffff;
+                border-radius: 10px;
+            }
+            .itm-search-btn {
+                width: 50px;
+                height: 50px;
+                background: red;
+                border-radius: 10px;
+            }
         </style>
         <div id="itm">
             <div class="itm-container">
@@ -511,6 +550,13 @@
                                 </p>
                             </div>
                         </a>
+                    </div>
+                </div>
+                <div class="itm-search">
+                    <h2>Search within the ITM Playbook</h2>
+                    <div class="itm-search-flex">
+                        <div class="itm-search-field"></div>
+                        <div class="itm-search-btn"></div>
                     </div>
                 </div>
             </div>
