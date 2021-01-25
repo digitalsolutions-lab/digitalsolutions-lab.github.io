@@ -250,8 +250,20 @@
                 margin-left: -12px;
                 margin-right: -12px;
             }
+            .itm-col-3 {
+                width: 25%;
+                float: left;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
             .itm-col-4 {
                 width: 33.33333333%;
+                float: left;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .itm-col-9 {
+                width: 75%;
                 float: left;
                 padding-left: 12px;
                 padding-right: 12px;
@@ -414,7 +426,7 @@
             }
             .itm-search h2 {
                 color: #ffffff;
-                padding: 0 0 50px;
+                padding: 0 0 30px;
                 font-size: 36px;
                 font-weight: 500;
                 text-align: center;
@@ -424,16 +436,22 @@
                 justify-content: center;
             }
             .itm-search-field {
-                width: 300px;
+                width: 350px;
                 height: 50px;
                 background: #ffffff;
                 border-radius: 10px;
             }
             .itm-search-btn {
-                width: 50px;
                 height: 50px;
-                background: red;
+                background: #da1710;
                 border-radius: 10px;
+                color: #ffffff;
+                padding: 10px 20px;
+                font-size: 20px;
+                margin-left: 10px;
+            }
+            .itm-extra img {
+                width: 100%;
             }
         </style>
         <div id="itm">
@@ -556,7 +574,31 @@
                     <h2>Search within the ITM Playbook</h2>
                     <div class="itm-search-flex">
                         <div class="itm-search-field"></div>
-                        <div class="itm-search-btn"></div>
+                        <div class="itm-search-btn">Search</div>
+                    </div>
+                </div>
+                <div class="itm-extra">
+                    <div class="itm-row clearfix">
+                        <div class="itm-col-3">
+                            <h2>We value your feedback</h2>
+                            <p>
+                                If you need help with any of the Playbook
+                                content, or would like to provide feedback on
+                                existing or additional content you feel may be
+                                useful, we'd love to hear from you.
+                            </p>
+                            <a
+                                href="mailto:InTheMoment@westpac.com.au"
+                                class="itm-btn"
+                                >Email us</a
+                            >
+                        </div>
+                        <div class="itm-col-9">
+                            <img
+                                src="https://digitalsolutions-lab.github.io/itm2/img/connect.png"
+                                alt="ITM search image"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
