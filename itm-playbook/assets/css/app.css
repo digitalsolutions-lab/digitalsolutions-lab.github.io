@@ -268,6 +268,13 @@ html {
   padding-right: 12px;
 }
 
+.itm-col-5 {
+  width: 41.66666667%;
+  float: left;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .itm-col-8 {
   width: 66.66666667%;
   float: left;
@@ -280,6 +287,10 @@ html {
   float: left;
   padding-left: 12px;
   padding-right: 12px;
+}
+
+.itm-link svg {
+  margin-right: 6px;
 }
 
 /* page */
@@ -520,9 +531,14 @@ html {
 
 .itm-extra {
   position: relative;
-  background: url(https://digitalsolutions-lab.github.io/itm-playbook/img/contact3.png) no-repeat bottom right;
-  height: 442px;
+  height: 342px;
   z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .itm-extra::before {
@@ -533,11 +549,25 @@ html {
   right: -50%;
   top: 0;
   overflow: hidden;
-  background: #fdedfa;
+  background: #fed9f8;
   height: 100%;
   z-index: -1;
 }
 
-.itm-extra img {
-  width: 100%;
+.itm-extra-img {
+  position: absolute;
+  z-index: -1;
+  right: -200px;
+  bottom: 0;
+}
+
+.itm-extra h2 {
+  padding: 0 0 30px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.itm-extra .itm-link {
+  padding-top: 20px;
+  display: inline-block;
 }
