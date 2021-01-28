@@ -165,6 +165,9 @@
             #content {
                 padding: 0 !important;
             }
+            #content #itm {
+                margin-top: -30px;
+            }
             .search-macro-fields {
                 width: 370px !important;
             }
@@ -243,7 +246,7 @@
                 font-feature-settings: 'liga' 1;
             }
             .itm-container a {
-                color: #181b25;
+                color: #181b25 !important;
                 text-decoration: none;
             }
             .itm-row {
@@ -286,6 +289,7 @@
                 display: flex;
                 align-content: center;
                 position: relative;
+                z-index: 1;
             }
             .itm-header::before {
                 content: '';
@@ -343,6 +347,7 @@
             .itm-feature {
                 position: relative;
                 padding-bottom: 50px;
+                z-index: 1;
             }
             .itm-feature::before {
                 content: '';
@@ -465,6 +470,7 @@
                     no-repeat bottom right;
                 height: 442px;
                 display: none;
+                z-index: 1;
             }
             .itm-extra::before {
                 content: '';
@@ -601,6 +607,7 @@
                 <div class="itm-search">
                     <h2>Search within the ITM Playbook</h2>
                     <div class="itm-search-flex">
+                        <div id="itm-search-placeholder"></div>
                         <div class="itm-search-field"></div>
                         <div class="itm-search-btn">Search</div>
                     </div>
