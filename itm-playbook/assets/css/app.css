@@ -283,7 +283,7 @@ html {
 }
 
 /* page */
-/* path to imgs: https://digitalsolutions-lab.github.io/itm2/img/ */
+/* path to imgs: https://digitalsolutions-lab.github.io/itm-playbook/img/ */
 .itm-header {
   height: 4.0625rem;
   padding-left: 1.5rem;
@@ -520,7 +520,7 @@ html {
 
 .itm-extra {
   position: relative;
-  background: url(https://digitalsolutions-lab.github.io/itm2/img/contact3.png) no-repeat bottom right;
+  background: url(https://digitalsolutions-lab.github.io/itm-playbook/img/contact3.png) no-repeat bottom right;
   height: 442px;
   z-index: 0;
 }
