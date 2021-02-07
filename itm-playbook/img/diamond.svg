@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="906px" height="413px" viewBox="0 0 906 413" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="459" cy="29" rx="138" ry="26"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="280" height="56">
+            <rect x="319" y="1" width="280" height="56" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Frame-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="262" y="247">Frame</tspan>
+        </text>
+        <text id="Discover-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="124" y="247">Discover</tspan>
+        </text>
+        <text id="Ideate-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="561" y="205">Ideate</tspan>
+        </text>
+        <text id="Design-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="654" y="148">Design</tspan>
+        </text>
+        <text id="Create-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="761" y="209">Create</tspan>
+        </text>
+        <text id="Activate-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="755" y="280">Activate</tspan>
+        </text>
+        <path d="M225.906638,72.7220401 L226.5,412.66023" id="Line-Copy" stroke="#BFBFBF" stroke-linecap="square" stroke-dasharray="2" fill-rule="nonzero"></path>
+        <path d="M604.5,355 L747,129.5" id="Line-2-Copy" stroke="#BFBFBF" stroke-linecap="square" stroke-dasharray="2" fill-rule="nonzero"></path>
+        <path d="M897,244 L461,242" id="Line-6-Copy" stroke="#BFBFBF" stroke-linecap="square" stroke-dasharray="2" fill-rule="nonzero"></path>
+        <path d="M749.5,354.5 L605,135.5" id="Line-7-Copy" stroke="#BFBFBF" stroke-linecap="square" stroke-dasharray="2" fill-rule="nonzero"></path>
+        <text id="Learn-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="656" y="348">Learn</tspan>
+        </text>
+        <text id="Optimise-Copy" font-family="Roboto-Bold, Roboto" font-size="17" font-weight="bold" fill="#3D3D3D">
+            <tspan x="553" y="279.237085">Optimise</tspan>
+        </text>
+        <text id="Understand-Copy" font-family="Roboto-Black, Roboto" font-size="21" font-weight="700" fill="#3D3D3D">
+            <tspan x="221" y="13"></tspan>
+            <tspan x="166.115967" y="37">Understand</tspan>
+        </text>
+        <text id="Execute-Copy" font-family="Roboto-Black, Roboto" font-size="21" font-weight="700" fill="#3D3D3D">
+            <tspan x="680" y="13"></tspan>
+            <tspan x="642.40918" y="37">Execute</tspan>
+        </text>
+        <text id="Iterate" font-family="Roboto-MediumItalic, Roboto" font-size="21" font-style="italic" font-weight="500">
+            <tspan x="452.5" y="13" fill="#3D3D3D"></tspan>
+            <tspan x="425.46582" y="37" font-size="19" fill="#AAAAAA">Iterate</tspan>
+        </text>
+        <path d="M4.38445704,242.441135 L226.5,409.531823 L448.615543,242.441135 L226.5,75.3504472 L4.38445704,242.441135 Z" id="Rectangle" stroke="#DA1710" stroke-width="5" fill-rule="nonzero"></path>
+        <path d="M457.392395,242.949163 L679.5,409.536199 L901.607605,242.949163 L679.5,76.3621276 L457.392395,242.949163 Z" id="Rectangle-Copy" stroke="#DA1710" stroke-width="5" fill-rule="nonzero"></path>
+        <use id="Oval" stroke="#C3C3C3" mask="url(#mask-2)" stroke-width="4" stroke-dasharray="9" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <polygon id="Triangle" fill="#C3C3C3" fill-rule="nonzero" transform="translate(346.322314, 12.665126) rotate(-106.000000) translate(-346.322314, -12.665126) " points="346.322314 7.66512611 351.822314 17.6651261 340.822314 17.6651261"></polygon>
+        <polygon id="Triangle" fill="#C3C3C3" fill-rule="nonzero" transform="translate(569.253134, 45.606687) rotate(75.000000) translate(-569.253134, -45.606687) " points="569.253134 40.6066873 574.753134 50.6066873 563.753134 50.6066873"></polygon>
+    </g>
+</svg>
