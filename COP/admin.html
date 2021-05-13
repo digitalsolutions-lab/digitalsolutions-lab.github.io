@@ -93,7 +93,9 @@
                         <div class="main-tab__btn current">
                             Change review cycle
                         </div>
-                        <div class="main-tab__btn">Squad management</div>
+                        <a href="/squad-management.html" class="main-tab__btn"
+                            >Squad management</a
+                        >
                         <div class="main-control">
                             <button class="main-control__btn">
                                 Change review cycle<span
@@ -125,8 +127,14 @@
 
                     <div class="main-table__wrapper">
                         <div class="main-table__search">
-                            <label for="" class="">Type to search</label
-                            ><input name="" id="" class="" type="text" /><label
+                            <label for="" class="sr-only">Type to search</label
+                            ><input
+                                name=""
+                                id=""
+                                class=""
+                                type="text"
+                                placeholder="Type to search"
+                            /><label
                                 for=""
                                 class="css-1w5ydmo-visuallyHidden"
                             ></label
@@ -138,16 +146,61 @@
                             <thead>
                                 <tr>
                                     <th><input type="checkbox" /></th>
-                                    <th>Page url</th>
-                                    <th>Brand</th>
-                                    <th>Site section</th>
-                                    <th>Page Section</th>
-                                    <th>Due Status</th>
-                                    <th>Due Date</th>
-                                    <th>Review Status</th>
-                                    <th>Page Type</th>
+                                    <th>
+                                        Page url
+                                        <button class="main-table__btn-sort">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Brand
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Site section
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Page Section
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Due Status
+                                        <button class="main-table__btn-sort">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Due Date
+                                        <button class="main-table__btn-sort">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Review Status
+                                        <button class="main-table__btn-sort">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Page Type
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
                                     <th>Restricted words</th>
-                                    <th>Review cycle</th>
+                                    <th>
+                                        Review cycle
+                                        <button class="main-table__btn-sort">
+                                            Sort
+                                        </button>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
