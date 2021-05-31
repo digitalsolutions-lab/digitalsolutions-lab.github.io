@@ -952,22 +952,22 @@ input[type="text"] {
 }
 
 .main-table__btn-sort {
-  background: url("/c_dir/content_review_wbc.nsf/sort.svg") no-repeat center;
+  background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/sort.svg") no-repeat center;
   background-size: 100%;
 }
 
 .main-table__btn-sort-black {
-  background: url("/c_dir/content_review_wbc.nsf/sort-black.svg") center no-repeat;
+  background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/sort-black.svg") center no-repeat;
   background-size: 100%;
 }
 
 .main-table__btn-sort-red {
-  background: url("/c_dir/content_review_wbc.nsf/sort-red.svg") center no-repeat;
+  background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/sort-red.svg") center no-repeat;
   background-size: 100%;
 }
 
 .main-table__btn-filter {
-  background: url("/c_dir/content_review_wbc.nsf/filter.svg") no-repeat center;
+  background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/filter.svg") no-repeat center;
   background-size: 100%;
 }
 
