@@ -3,8 +3,7 @@
 /* JQuery 3.6.0 */
 
 // Modal window
-$(".main-table__btn-more").click(function (e) {
-    console.log($(this).next());
+$(".main-table__btn-more").click(function () {
     $(this).next().show();
 });
 
