@@ -594,6 +594,11 @@ input[type="text"] {
   width: 240px;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -833,7 +838,8 @@ input[type="text"] {
 }
 
 .main-control__btn,
-.main-table__search-btn {
+.main-table__search-btn,
+.main-form__search-btn {
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   background: #000;
@@ -851,7 +857,8 @@ input[type="text"] {
 }
 
 .main-control__btn:hover,
-.main-table__search-btn:hover {
+.main-table__search-btn:hover,
+.main-form__search-btn:hover {
   background: #707070;
 }
 
@@ -905,6 +912,10 @@ input[type="text"] {
 
 .main-table thead tr:hover {
   background: none;
+}
+
+.main-table thead tr th:first-child {
+  vertical-align: top;
 }
 
 .main-table th {
@@ -973,6 +984,7 @@ input[type="text"] {
 
 .main-table__search {
   padding: 20px 0;
+  position: relative;
 }
 
 .main-table__search select {
@@ -982,14 +994,24 @@ input[type="text"] {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   position: relative;
-  top: -1px;
+  top: 0;
 }
 
-.main-table__search-btn {
+.main-table__search-btn,
+.main-form__search-btn {
   margin-left: 6px;
   padding: 0px 20px;
   width: auto;
   text-align: center;
+}
+
+.main-table__search-clear {
+  width: 20px;
+  height: 20px;
+  background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/clear.svg");
+  position: absolute;
+  left: 210px;
+  top: 27px;
 }
 
 .main-table__btn-more {
@@ -1091,6 +1113,48 @@ input[type="text"] {
 .main-tab__pagination li a:hover {
   background: #000;
   color: #fff;
+}
+
+.main-form__wrapper {
+  padding: 40px;
+}
+
+.main-form label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.main-form input {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.main-form select {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main-form select.member__select {
+  position: absolute;
+  width: 100px;
+  right: 0;
+  top: 32px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.main-form__item {
+  position: relative;
+  width: 300px;
+}
+
+.main-form__search-btn {
+  position: absolute;
+  top: 32px;
+  right: -120px;
 }
 
 .footer {

@@ -86,60 +86,359 @@
         <main class="main">
             <div class="main-container">
                 <div class="main-title">
-                    <h1>Admin panel</h1>
+                    <h1>Content Review</h1>
+                    <p>Personal Banking - Home Loan</p>
                 </div>
                 <div class="main-tab">
                     <div class="main-tab__top-section">
-                        <a href="/admin.html" class="main-tab__btn"
-                            >Change review cycle</a
-                        >
                         <div class="main-tab__btn current">
-                            Squad management
+                            Due/Overdue pages
                         </div>
+                        <a href="#" class="main-tab__btn">All pages</a>
                         <div class="main-control">
-                            <a
-                                href="/create-squad.html"
-                                class="main-control__btn"
-                            >
-                                Create a Squad
-                            </a>
+                            <button class="main-control__btn">
+                                Assign<span class="arrow-down"></span></button
+                            ><button class="main-control__btn">
+                                Review <span class="arrow-down"></span></button
+                            ><button class="main-control__btn">
+                                Export
+                                <svg
+                                    aria-label="Download"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    role="img"
+                                    focusable="false"
+                                    class="main-control__download-svg"
+                                >
+                                    <metadata>
+                                        Copyright © 2021 by Westpac Banking
+                                        Corporation. All rights reserved.
+                                    </metadata>
+                                    <path
+                                        fill="currentColor"
+                                        fill-rule="evenodd"
+                                        d="M12 2a7 7 0 016.919 8.071A6 6 0 0118 22H7A7 7 0 015.036 8.28 7.002 7.002 0 0112 2zm2 8h-4v4H7l5 5 5-5h-3v-4z"
+                                    ></path>
+                                </svg>
+                            </button>
                         </div>
                     </div>
-
                     <div class="main-table__wrapper">
+                        <div class="main-table__search">
+                            <label for="" class="sr-only">Type to search</label
+                            ><input
+                                name=""
+                                id=""
+                                class=""
+                                type="text"
+                                placeholder="Type to search"
+                            />
+                            <button class="main-table__search-clear"></button>
+                            <select name="" id="">
+                                <option value="url">URL</option>
+                                <option value="page">Page title</option>
+                            </select>
+                            <button class="main-table__search-btn">
+                                search</span>
+                            </button>
+                        </div>
                         <table class="main-table">
                             <thead>
                                 <tr>
-                                    <th>Squad name</th>
-                                    <th>Squad role</th>
-                                    <th>Site section</th>
-                                    <th>Edit Squad</th>
+                                    <th><input type="checkbox" /></th>
+                                    <th>Page url</th>
+                                    <th>
+                                        Brand
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Site section
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Page Section
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Due Status
+                                        <button class="main-table__btn-sort-black">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Due Date
+                                        <button class="main-table__btn-sort-red">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Review Status<button
+                                            class="main-table__btn-sort-black"
+                                        >
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Reviewer
+                                        <button class="main-table__btn-sort-black">
+                                            Sort
+                                        </button>
+                                    </th>
+                                    <th>
+                                        Restricted words
+                                        <button class="main-table__btn-filter">
+                                            Filter
+                                        </button>
+                                    </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <td>Digital Solutions</td>
-                                <td>Site Admin</td>
-                                <td>n/a</td>
-                                <td>
-                                    <svg
-                                        aria-label="Edit"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 24 24"
-                                        role="img"
-                                        focusable="false"
-                                        class="main-table__svg-edit"
-                                    >
-                                        <metadata>
-                                            Copyright © 2020 by Westpac Banking
-                                            Corporation. All rights reserved.
-                                        </metadata>
-                                        <path
-                                            fill="currentColor"
-                                            fill-rule="evenodd"
-                                            d="M0,19.0006943 L0,24 L4.99930565,24 L19.7439245,9.2553812 L14.7446188,4.25607555 L0,19.0006943 Z M23.6100542,5.38925149 C24.1299819,4.86932371 24.1299819,4.02944036 23.6100542,3.50951257 L20.4904874,0.389945841 C19.9705596,-0.129981947 19.1306763,-0.129981947 18.6107485,0.389945841 L16.1710873,2.829607 L21.170393,7.82891265 L23.6100542,5.38925149 Z"
-                                        ></path>
-                                    </svg>
-                                </td>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-danger">Overdue</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-warning">Due</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-warning">Due</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox" /></td>
+                                    <td>
+                                        <a href="#"
+                                            >personal-banking/home-loans</a
+                                        >
+                                    </td>
+                                    <td>Westpac</td>
+                                    <td>Home loan</td>
+                                    <td>Affiliate</td>
+                                    <td><span class="alert-warning">Due</span></td>
+                                    <td>01-04-2021</td>
+                                    <td>Not started</td>
+                                    <td>N/A</td>
+                                    <td>No<button class="main-table__btn-more"><img src="images/more.svg" alt="Learn more"></button></td>
+                                </tr>
                             </tbody>
                         </table>
                         <div class="main-table__footer">
