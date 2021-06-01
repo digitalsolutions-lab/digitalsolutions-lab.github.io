@@ -1029,6 +1029,47 @@ button {
   height: 20px;
 }
 
+.main-table__modal {
+  display: none;
+  width: 380px;
+  position: fixed;
+  background: #fff;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  left: 50%;
+  min-height: 200px;
+  -webkit-box-shadow: 1px 3px 15px #a8a8a6;
+  box-shadow: 1px 3px 15px #a8a8a6;
+}
+
+.main-table__modal h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 20px;
+  border-bottom: 1px solid #84dce0;
+}
+
+.main-table__modal .main-table__modal-content {
+  padding: 24px 20px;
+}
+
+.main-table__modal .main-table__modal-content p {
+  margin-bottom: 16px;
+}
+
+.main-table__modal .main-table__modal-close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/cross.svg") center;
+}
+
 .main-table__footer {
   zoom: 1;
   padding: 10px 0 24px;
