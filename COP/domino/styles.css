@@ -1046,6 +1046,24 @@ button {
   clear: both;
 }
 
+.main-table__change-btn {
+  text-indent: -9999px;
+  width: 20px;
+  height: 16px;
+  position: relative;
+}
+
+.main-table__change-btn:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 8px solid #000;
+  left: 3px;
+}
+
 .main-tab__display {
   float: left;
   width: 50%;
