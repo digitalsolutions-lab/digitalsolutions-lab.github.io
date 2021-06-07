@@ -904,7 +904,7 @@ button {
   background: #fff;
   border: 1px solid #a8a8a6;
   padding: 16px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .main-tab.no-top .main-table__wrapper {
