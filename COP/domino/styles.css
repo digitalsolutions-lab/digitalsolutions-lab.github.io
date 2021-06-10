@@ -663,6 +663,25 @@ h3 {
   background: #fff;
 }
 
+.main__btn-accent {
+  -webkit-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  background: #DA1710;
+  border: 1px solid #DA1710;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 3px;
+  height: 32px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main__btn-accent:hover {
+  background: #fff;
+  color: #DA1710;
+}
+
 .home__svg {
   width: 24px;
   color: #000;
@@ -1118,6 +1137,16 @@ h3 {
   background: url("https://urccap01.intranet.westpac.com.au/c_dir/content_review_wbc.nsf/cross.svg") center;
 }
 
+.modal__textarea .main-form label {
+  font-weight: 400;
+}
+
+.modal__textarea textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
 .main-table__footer {
   zoom: 1;
   padding: 10px 0 24px;
@@ -1270,6 +1299,11 @@ h3 {
 
 .main-form__submit {
   float: right;
+}
+
+.modal__textarea .main-form__submit {
+  display: inline-block;
+  width: auto;
 }
 
 .main-form__item {
