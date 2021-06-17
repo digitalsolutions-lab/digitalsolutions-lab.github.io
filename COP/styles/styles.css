@@ -672,6 +672,11 @@ h3 {
   .main-row:after {
     clear: both; }
 
+.main-col-2 {
+  width: 50%;
+  float: left;
+  padding: 0 20px; }
+
 .main-row__bg {
   background: #f3f5f6;
   padding-top: 20px; }
@@ -897,6 +902,11 @@ h3 {
     font-weight: 600;
     padding: 16px 20px;
     border-bottom: 1px solid #84dce0; }
+    .main-table__modal h3 span {
+      display: block;
+      font-size: 12px;
+      font-weight: 400;
+      padding-top: 6px; }
   .main-table__modal .main-table__modal-content {
     padding: 24px 20px; }
     .main-table__modal .main-table__modal-content p {
