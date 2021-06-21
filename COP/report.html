@@ -86,36 +86,111 @@
         <main class="main">
             <div class="main-container">
                 <div class="main-title">
-                    <h1>Pages</h1>
-                    <div style="clear: both">
-                        <ul>
-                            <li>
-                                <a href="content-review.html">Content review</a>
-                            </li>
-                            <li>
-                                <a href="admin.html">Admin</a>
-                            </li>
-                            <li>
-                                <a href="create-squad.html">Create a squad</a>
-                            </li>
-                            <li>
-                                <a href="squad-management.html"
-                                    >Squad management</a
+                    <h1>Content report</h1>
+                </div>
+                <div class="main-tab no-top">
+                    <div class="main-table__wrapper">
+                        <div class="report-overview__wrapper">
+                            <div class="report-overview__box">
+                                <span class="ro-line-1"
+                                    >No. of Overdue pages</span
                                 >
-                            </li>
-                            <li>
-                                <a href="squad-profile.html">Squad profile</a>
-                            </li>
-                            <li>
-                                <a href="modals.html">Modals</a>
-                            </li>
-                            <li>
-                                <a href="page-history.html">Page history</a>
-                            </li>
-                            <li>
-                                <a href="report.html">Content report</a>
-                            </li>
-                        </ul>
+                                <span class="ro-line-2">14452</span>
+                                <span class="ro-line-3"
+                                    >Across all portfolios</span
+                                >
+                            </div>
+                            <div class="report-overview__box">
+                                <span class="ro-line-1">No. of Due pages</span>
+                                <span class="ro-line-2">309</span>
+                                <span class="ro-line-3"
+                                    >Across all portfolios</span
+                                >
+                            </div>
+                            <div class="report-overview__box">
+                                <span class="ro-line-1"
+                                    >% of page reviewed within 30 days</span
+                                >
+                                <span class="ro-line-2">30%</span>
+                                <span class="ro-line-3"
+                                    >Across all portfolios</span
+                                >
+                            </div>
+                        </div>
+                        <table class="main-table">
+                            <thead>
+                                <tr>
+                                    <th>Squad</th>
+
+                                    <th>URL Pattern (WBC)</th>
+
+                                    <th>URL Pattern (RRB)</th>
+
+                                    <th>
+                                        No. of overdue pages &nbsp;<button
+                                            class="main-table__btn-sort-black"
+                                            onclick="sortTHIS('numOverdue'); return false"
+                                        >
+                                            Sort
+                                        </button>
+                                    </th>
+
+                                    <th>
+                                        No. of Due pages &nbsp;<button
+                                            class="main-table__btn-sort-black"
+                                            onclick="sortTHIS('numDue'); return false"
+                                        >
+                                            Sort
+                                        </button>
+                                    </th>
+
+                                    <th>% of pages reviewed within 30 days</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Bank Accounts</td>
+                                    <td>/personal-banking/bank-accounts/</td>
+                                    <td>/personal/bank-accounts</td>
+                                    <td>493</td>
+                                    <td>13</td>
+                                    <td>- - -</td>
+                                </tr>
+                                <tr>
+                                    <td>Credit Cards</td>
+                                    <td>/personal-banking/credit-cards/</td>
+                                    <td>/personal/credit-cards</td>
+                                    <td>400</td>
+                                    <td>2</td>
+                                    <td>- - -</td>
+                                </tr>
+                                <tr>
+                                    <td>Home Loans</td>
+                                    <td>/personal-banking/home-loans/</td>
+                                    <td>/personal/home-loans</td>
+                                    <td>541</td>
+                                    <td>31</td>
+                                    <td>- - -</td>
+                                </tr>
+                                <tr>
+                                    <td>Personal Loans</td>
+                                    <td>/personal-banking/personal-loans/</td>
+                                    <td>/personal/personal-loans</td>
+                                    <td>112</td>
+                                    <td>11</td>
+                                    <td>- - -</td>
+                                </tr>
+                                <tr>
+                                    <td>- - -</td>
+                                    <td>- - -</td>
+                                    <td>- - -</td>
+                                    <td>12906</td>
+                                    <td>252</td>
+                                    <td>- - -</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>

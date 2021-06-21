@@ -649,7 +649,10 @@ h3 {
   border-radius: 100%;
   background: #dadada;
   float: left;
-  margin-right: 10px; }
+  margin-right: 10px;
+  text-align: center; }
+  .user__icon img {
+    margin-top: 3px; }
 
 .main {
   background: #f3f5f6;
@@ -1046,6 +1049,34 @@ h3 {
   float: left;
   padding: 0 20px;
   margin-bottom: 30px; }
+
+.report-overview__wrapper {
+  zoom: 1;
+  padding: 20px 0; }
+  .report-overview__wrapper:before, .report-overview__wrapper:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+  .report-overview__wrapper:after {
+    clear: both; }
+
+.report-overview__box {
+  float: left;
+  padding: 20px 50px;
+  border-right: 1px solid #a8a8a6; }
+  .report-overview__box:first-child {
+    border-left: 1px solid #a8a8a6; }
+  .report-overview__box span {
+    display: block; }
+  .report-overview__box .ro-line-1 {
+    font-size: 14px;
+    margin-bottom: 16px; }
+  .report-overview__box .ro-line-2 {
+    font-size: 20px;
+    font-weight: 600; }
+  .report-overview__box .ro-line-3 {
+    color: #686362; }
 
 .footer {
   zoom: 1;
