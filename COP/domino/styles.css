@@ -1365,7 +1365,8 @@ h3 {
 
 .report-overview__box .ro-line-1 {
   font-size: 14px;
-  height: 30px;
+  height: 32px;
+  line-height: 32px;
 }
 
 .report-overview__box .ro-line-2 {
