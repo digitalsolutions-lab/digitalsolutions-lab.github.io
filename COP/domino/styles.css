@@ -761,15 +761,62 @@ h3 {
   transform: translateY(-50%);
   float: left;
   padding: 0 18px;
+  z-index: 10;
+}
+
+.nav .level-1 li {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 10px;
+}
+
+.nav .level-1 li:first-child .level-2 li:last-child {
+  border-top: 1px dashed #a8a8a6;
+}
+
+.nav .level-1 li:hover {
+  background: #EDEFF0;
+}
+
+.nav .level-1 li:hover .level-2 {
+  display: block;
+}
+
+.nav .level-1 li a {
+  padding: 16px;
+}
+
+.nav .level-2,
+.nav .level-3 {
+  display: none;
+  position: absolute;
+  background: #fff;
+  left: 0;
+  top: 100%;
+  -webkit-box-shadow: 1px 3px 15px #a8a8a6;
+  box-shadow: 1px 3px 15px #a8a8a6;
+}
+
+.nav .level-2 li,
+.nav .level-3 li {
+  min-width: 175px;
+  width: 100%;
+  padding: 10px;
+}
+
+.nav .level-2 li:hover {
+  background: #EDEFF0;
+}
+
+.nav .level-2 li:hover .level-3 {
+  display: block;
+  left: 100%;
+  top: 0;
 }
 
 .nav a {
-  padding: 16px;
   text-decoration: none;
-}
-
-.nav a:hover {
-  text-decoration: underline;
 }
 
 .user {
@@ -985,7 +1032,8 @@ h3 {
   background: #fafafa;
 }
 
-.main-table tr:hover .main-table__btn-more {
+.main-table tr:hover .main-table__btn-more,
+.main-table tr:hover .portfolio-view__btn {
   display: block;
 }
 
@@ -1105,6 +1153,14 @@ h3 {
 .main-table__btn-more img {
   width: 20px;
   height: 20px;
+}
+
+.portfolio-view__btn {
+  position: absolute;
+  display: none;
+  top: 2px;
+  right: 10px;
+  width: 125px;
 }
 
 .main-table__modal {

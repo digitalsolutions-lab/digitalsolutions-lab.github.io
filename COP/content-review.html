@@ -74,9 +74,43 @@
                 </svg>
             </div>
             <nav class="nav">
-                <a href="/">Content Review</a>
-                <a href="#">Content Report</a>
-                <a href="/admin.html">Admin</a>
+                <ul class="level-1">
+                    <li>
+                        <a href="/">Content Review</a>
+                        <ul class="level-2">
+                            <li><a href="#">Bank Accounts</a></li>
+                            <li><a href="#">Credit Cards</a></li>
+                            <li><a href="#">Home Loans</a></li>
+                            <li><a href="#">Personal Loans</a></li>
+                            <li><a href="#">View all portfolios</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Content Report</a>
+                        <ul class="level-2">
+                            <li><a href="#">My squad</a>
+                                <ul class="level-3">
+                                    <li><a href="#">Bank Accounts</a></li>
+                                    <li><a href="#">Credit Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">My dashboard</a></li>
+                            <li><a href="#">Overall report</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/admin.html">Admin</a>
+                        <ul class="level-2">
+                            <li><a href="#">Create squad</a></li>
+                            <li><a href="#">Manage squad</a>
+                                <ul class="level-3">
+                                    <li><a href="#">Bank Accounts</a></li>
+                                    <li><a href="#">Credit Cards</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
             <div class="user">
                 <div class="user__icon"><img src="images/user-admin.svg" alt="User admin" /></div>
@@ -87,7 +121,6 @@
             <div class="main-container">
                 <div class="main-title">
                     <h1>Bank accounts</h1>
-                    <p>Edit profile | Squad dashboard | Create squad profile</p>
                 </div>
                 <div class="main-tab">
                     <div class="main-tab__top-section">
