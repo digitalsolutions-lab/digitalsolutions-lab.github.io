@@ -975,10 +975,22 @@ h3 {
   -webkit-appearance: none;
   /* Safari and Chrome */
   appearance: none;
+  cursor: pointer;
 }
 
 .main-control select:hover {
   background: #707070;
+}
+
+.main-control__select-wrapper {
+  position: relative;
+}
+
+.main-control__select-wrapper:before {
+  content: "";
+  position: absolute !important;
+  top: 4px !important;
+  right: 14px;
 }
 
 .main-control__btn,
@@ -988,7 +1000,8 @@ h3 {
   text-align: left;
 }
 
-.arrow-down {
+.arrow-down,
+.main-control__select-wrapper:before {
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
@@ -1153,6 +1166,22 @@ h3 {
 .main-table__btn-more img {
   width: 20px;
   height: 20px;
+}
+
+.main-table__edit-icn {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.main-table__edit-icn:hover:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #000;
+  top: -4px;
+  left: -4px;
 }
 
 .portfolio-view__btn {

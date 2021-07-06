@@ -73,86 +73,131 @@
                     />
                 </svg>
             </div>
-            <nav class="nav"></nav>
+            <nav class="nav">
+                <ul class="level-1">
+                    <li>
+                        <a href="/">Content Review</a>
+                        <ul class="level-2">
+                            <li><a href="#">Bank Accounts</a></li>
+                            <li><a href="#">Credit Cards</a></li>
+                            <li><a href="#">Home Loans</a></li>
+                            <li><a href="#">Personal Loans</a></li>
+                            <li><a href="#">View all squads</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Content Report</a>
+                        <ul class="level-2">
+                            <li>
+                                <a href="#">My squad</a>
+                                <ul class="level-3">
+                                    <li><a href="#">Bank Accounts</a></li>
+                                    <li><a href="#">Credit Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">My dashboard</a></li>
+                            <li><a href="#">Overall report</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/admin.html">Admin</a>
+                        <ul class="level-2">
+                            <li><a href="#">Create squad</a></li>
+                            <li>
+                                <a href="#">Manage squad</a>
+                                <ul class="level-3">
+                                    <li><a href="#">Bank Accounts</a></li>
+                                    <li><a href="#">Credit Cards</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
             <div class="user">
-                <div class="user__icon"></div>
+                <div class="user__icon">
+                    <img src="images/user-admin.svg" alt="User admin" />
+                </div>
                 Monica Turrecha
             </div>
         </header>
         <main class="main">
             <div class="main-container">
                 <div class="main-title">
-                    <h1>All squads</h1>
+                    <h1>Bank accounts</h1>
                 </div>
-                <div class="main-tab no-top">
+                <div class="main-tab">
+                    <div class="main-tab__top-section">
+                        <div class="main-tab__btn current">Content review</div>
+                        <a href="#" class="main-tab__btn">Content report</a>
+                        <div class="main-control">
+                            <span class="main-control__select-wrapper">
+                                <select style="width: 145px">
+                                    <option value="Review">Review cycle</option>
+                                    <option value="Start Review">
+                                        Start Review
+                                    </option>
+                                    <option value="Wait for Resolution">
+                                        Wait for Resolution
+                                    </option>
+                                    <option value="Finish Review">
+                                        Finish Review
+                                    </option>
+                                </select>
+                            </span>
+                            <span class="main-control__select-wrapper">
+                                <select>
+                                    <option value="Review">Review</option>
+                                    <option value="Start Review">
+                                        Start Review
+                                    </option>
+                                    <option value="Wait for Resolution">
+                                        Wait for Resolution
+                                    </option>
+                                    <option value="Finish Review">
+                                        Finish Review
+                                    </option>
+                                </select>
+                            </span>
+                            <span class="main-control__select-wrapper">
+                                <select>
+                                    <option value="Review">Assign</option>
+                                    <option value="Start Review">
+                                        Start Review
+                                    </option>
+                                    <option value="Wait for Resolution">
+                                        Wait for Resolution
+                                    </option>
+                                    <option value="Finish Review">
+                                        Finish Review
+                                    </option>
+                                </select>
+                            </span>
+                            <button class="main-control__btn">
+                                Export
+                                <svg
+                                    aria-label="Download"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    role="img"
+                                    focusable="false"
+                                    class="main-control__download-svg"
+                                >
+                                    <metadata>
+                                        Copyright © 2021 by Westpac Banking
+                                        Corporation. All rights reserved.
+                                    </metadata>
+                                    <path
+                                        fill="currentColor"
+                                        fill-rule="evenodd"
+                                        d="M12 2a7 7 0 016.919 8.071A6 6 0 0118 22H7A7 7 0 015.036 8.28 7.002 7.002 0 0112 2zm2 8h-4v4H7l5 5 5-5h-3v-4z"
+                                    ></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                     <div class="main-table__wrapper">
-                        <table class="main-table">
-                            <thead>
-                                <tr>
-                                    <th>Squad</th>
-                                    <th>URL Pattern (WBC)</th>
-                                    <th>URL Pattern (RRB)</th>
-                                    <th>No. of pages</th>
-                                    <th>Edit Squad</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>Bank Accounts</td>
-                                    <td>/personal-banking/bank-accounts/</td>
-                                    <td>/personal/bank-accounts</td>
-                                    <td>453</td>
-                                    <td>
-                                        <a class="main-table__edit-icn" href="#"
-                                            ><img
-                                                src="images/edit.svg"
-                                                alt="edit squad"
-                                        /></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Credit Cards</td>
-                                    <td>/personal-banking/credit-cards/</td>
-                                    <td>/personal/credit-cards</td>
-                                    <td>299</td>
-                                    <td>
-                                        <a class="main-table__edit-icn" href="#"
-                                            ><img
-                                                src="images/edit.svg"
-                                                alt="edit squad"
-                                        /></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Home Loans</td>
-                                    <td>/personal-banking/home-loans/</td>
-                                    <td>/personal/home-loans</td>
-                                    <td>439</td>
-                                    <td>
-                                        <a class="main-table__edit-icn" href="#"
-                                            ><img
-                                                src="images/edit.svg"
-                                                alt="edit squad"
-                                        /></a>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>Personal Loans</td>
-                                    <td>/personal-banking/personal-loans/</td>
-                                    <td>/personal/personal-loans</td>
-                                    <td>538</td>
-                                    <td>
-                                        <a class="main-table__edit-icn" href="#"
-                                            ><img
-                                                src="images/edit.svg"
-                                                alt="edit squad"
-                                        /></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div style="min-height: 500px"></div>
                     </div>
                 </div>
             </div>
@@ -210,5 +255,11 @@
                 >
             </div>
         </footer>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"
+        ></script>
+        <script src="scripts/app.js"></script>
     </body>
 </html>
