@@ -589,6 +589,9 @@ h3 {
     overflow: hidden; }
   .header:after {
     clear: both; }
+  @media (max-width: 1180px) {
+    .header {
+      height: 102px; } }
 
 .home {
   position: relative;
@@ -599,6 +602,12 @@ h3 {
   float: left;
   padding: 15px 18px;
   border-right: 1px solid #a8a8a6; }
+  @media (max-width: 1180px) {
+    .home {
+      top: 2px;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); } }
 
 .w-logo {
   position: relative;
@@ -608,6 +617,12 @@ h3 {
           transform: translateY(-50%);
   float: left;
   padding: 0 18px; }
+  @media (max-width: 1180px) {
+    .w-logo {
+      top: 2px;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); } }
 
 .cop-logo {
   position: relative;
@@ -618,6 +633,12 @@ h3 {
   float: left;
   padding: 14px 18px 14px 0;
   border-right: 1px solid #a8a8a6; }
+  @media (max-width: 1180px) {
+    .cop-logo {
+      top: 2px;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); } }
 
 .nav {
   position: relative;
@@ -661,6 +682,21 @@ h3 {
     border-top: 1px dashed #a8a8a6; }
   .nav a {
     text-decoration: none; }
+  @media (max-width: 1180px) {
+    .nav {
+      clear: left;
+      top: 0;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); }
+      .nav:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        background: #e5e7e8; } }
 
 .user {
   position: relative;
@@ -671,6 +707,13 @@ h3 {
   float: right;
   margin-right: 30px;
   line-height: 30px; }
+  @media (max-width: 1180px) {
+    .user {
+      top: 5px;
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0);
+      z-index: 11; } }
 
 .user__icon {
   width: 30px;
