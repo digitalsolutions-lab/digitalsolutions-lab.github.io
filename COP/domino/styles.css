@@ -768,7 +768,7 @@ h3 {
   display: block;
   float: left;
   position: relative;
-  padding: 10px;
+  padding: 10px 26px;
 }
 
 .nav .level-1 li:hover {
@@ -777,10 +777,6 @@ h3 {
 
 .nav .level-1 li:hover .level-2 {
   display: block;
-}
-
-.nav .level-1 li a {
-  padding: 16px;
 }
 
 .nav .level-2,
