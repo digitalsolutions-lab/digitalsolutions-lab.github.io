@@ -591,7 +591,8 @@ h3 {
     clear: both; }
   @media (max-width: 1180px) {
     .header {
-      height: 102px; } }
+      height: 102px;
+      overflow: hidden; } }
 
 .home {
   position: relative;
