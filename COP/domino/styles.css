@@ -771,10 +771,6 @@ h3 {
   padding: 10px;
 }
 
-.nav .level-1 li:first-child .level-2 li:last-child {
-  border-top: 1px dashed #a8a8a6;
-}
-
 .nav .level-1 li:hover {
   background: #EDEFF0;
 }
@@ -813,6 +809,10 @@ h3 {
   display: block;
   left: 100%;
   top: 0;
+}
+
+.nav .level-2__border {
+  border-top: 1px dashed #a8a8a6;
 }
 
 .nav a {
